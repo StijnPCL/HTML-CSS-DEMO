@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Voorbeeldformulier</h1>
+    <form action="http://www.savatarian.com/html5/form.php" method="get">
+        <div class="form-group">
+            <label for="voornaam">Voornaam</label>
+            <input type="text" id="voornaam" name="voornaam" value="">
+        </div>
+        <div class="form-group">
+            <label for="tussenvoegsel">Tussenvoegsel</label>
+            <input type="text" id="tussenvoegsel" name="tussenvoegsel">
+        </div>
+        <div class="form-group">
+            <label for="achternaam">Achternaam</label>
+            <input type="text" id="achternaam" name="achternaam">
+        </div>
+        <div class="radio-buttons">
+                <label>Geslacht</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+        </div>
+        <div class="form-group">
+                <label for="favcolor">Kleur ogen</label>
+                <input type="color" id="favcolor" name="favcolor">
+        </div>
+        <div class="form-group">
+                <label for="birthday">Geboortedatum</label>
+                <input type="date" id="birthday" name="birthday">
+        </div>
+        <div class="form-group">
+            <label for="omschrijving">Omschrijving</label>
+            <textarea id="w3review" name="w3review" rows="6" cols="30"></textarea>
+        </div>
+        <div class="form-group">
+                <label>Lekker eten:</label><br>
+                <input type="checkbox" id="sperciebonen" name="sperciebonen" value="Sperciebonen">
+                <label for="sperciebonen"> Sperciebonen</label><br>
+                <input type="checkbox" id="aardappelen" name="aardappelen" value="Aardappelen">
+                <label for="aardappelen"> Aardappelen</label><br>
+                <input type="checkbox" id="hamburger" name="hamburger" value="Hamburger">
+                <label for="hamburger"> Hamburger</label>
+        </div>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>

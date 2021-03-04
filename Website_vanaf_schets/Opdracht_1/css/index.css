@@ -1,0 +1,22 @@
+header h1 {
+    background: red;
+    padding: 20px; 
+    text-align: center left;
+    margin-bottom: 30px;
+}
+
+main {
+    background: green;
+    padding: 300px;
+    border: 1px, black, solid;
+}
+
+article {
+    color: white;
+}
+
+footer {
+    background: black;
+    padding: 60px;
+    margin-top: 30px;
+}

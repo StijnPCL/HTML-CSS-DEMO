@@ -1,0 +1,59 @@
+* {
+    font-family:"Arial", "sans-serif";
+}
+
+body {
+    background: rgb(248, 222, 231);
+}
+
+nav a {
+    margin-right: 1%;
+}
+
+section img.books {
+    float: left;
+    margin-top: 12px;
+    width: 700px;
+}
+
+section img.schoolbus {
+    float: right;
+    margin-top: 12px;
+    margin-right: 20%;
+    width: 500px;
+}
+
+section img.study {
+    float: right;
+    margin-top: 12px;
+    margin-right: 20%;
+    width: 500px;
+    height: 93px;
+}
+
+section img.chalkboard {
+    float: right;
+    margin-top: 12px;
+    margin-right: 20%;
+    width: 500px;
+    height: 93px;
+    margin-bottom: 1%;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+
+article {
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 1%;
+    max-width: 300px;
+}
+
+img.football {
+    width: 300px;
+}
+

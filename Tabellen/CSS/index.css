@@ -1,0 +1,34 @@
+.rood {
+    background-color: red;
+}
+
+.groen {
+    background-color: green;
+}
+
+.blauw {
+    background-color: blue;
+}
+
+.alligncenter {
+    text-align: center;
+}
+
+.one {
+    text-align: center;
+}
+
+.two {
+    text-align: center;
+    height: 60px;
+}
+
+.privateinfo {
+    text-align: left;
+    line-height: 1.8;
+}
+
+.orderno {
+    text-align: center;
+    height: 60px;
+}

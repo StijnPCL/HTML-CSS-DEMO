@@ -1,0 +1,20 @@
+.form-group {
+    width: 350px;
+    padding: 5px;
+}
+
+.form-group input {
+    float: right;
+    width: 200px;
+}
+
+.radio-buttons {
+	display: flex;
+    float: left;
+    padding: 10px;
+}
+
+.radio-buttons label {
+    margin-right: 80px;
+}
+
